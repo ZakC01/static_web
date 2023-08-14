@@ -1,0 +1,49 @@
+<!--Create the html file for the about page.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Add a external bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+<!--Add a custom bootstrap nav bar-->
+    <!--Add a custom bootstrap nav bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!--Add a logo-->
+            <a class="navbar-brand" href="home.html">Welcome To AI</a>
+        </div>
+</nav>
+<!--create a Enquiryform-->
+<div class="container">
+    <h2>Enquiry Form</h2>
+    <form action="home.html">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="phone" class="form-control" id="phone" placeholder="Enter phone number" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" rows="5" id="message" placeholder="Enter message" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+
+</body>
+
+</html>

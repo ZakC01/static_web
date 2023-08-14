@@ -1,0 +1,26 @@
+/*add a css to class container with some gap in the top and bottom and align center*/
+.container {
+  padding-top: 50px;
+}
+
+/*Give a proper CSS to class jumbotron with width 100% and height 30%*/
+.des {
+  font-family: Montserrat, sans-serif;
+  padding-top: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+}
+
+/*Add  CSS to class footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+}
+
+

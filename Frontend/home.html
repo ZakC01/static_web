@@ -1,0 +1,73 @@
+<!--Create a html structure-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Add the head-->
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Add a external bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+<!--Add a custom bootstrap nav bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!--Add a logo-->
+            <a class="navbar-brand" href="home.html">Welcome To AI</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <!--Add a active class-->
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+</nav>
+<!--Add a brief decription of AI-->
+<div class="des">
+        <p>Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans. Some of the activities computers with artificial intelligence are designed for include: Speech recognition. Learning.</p>
+</div>
+<!--Create a set of three cards in a row using flexbox layout. Each card should have an image at the top, a title, and a short description.-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="1.jpeg" alt="1" style="width:100%">
+                <div class="container">
+                    <h4><b>ROBOMAN</b></h4>
+                    <p>AI ROBO</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="2.jpeg" alt="2" style="width:100%">
+                <div class="container">
+                    <h4><b>PILOT</b></h4>
+                    <p>AI BOT</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="3.jpeg" alt="3" style="width:100%">
+                <div class="container">
+                    <h4><b>STELLA</b></h4>
+                    <p>AI MAN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Add a bootstrap footer with social media icons-->
+<footer class="footer">
+    <p>Follow us on</p>
+    <a href="https://www.facebook.com/"><img src="facebook.png" alt="facebook"></a>
+    <a href="https://www.instagram.com/"><img src="instagram.png" alt="instagram"></a>
+    <a href="https://twitter.com/"><img src="twitter.png" alt="twitter"></a>
+</footer>
+
+</body>
+</html>
